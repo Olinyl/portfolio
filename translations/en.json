@@ -1,0 +1,108 @@
+{
+    "general": {
+        "name": "Oliver Ng",
+        "headline": "Computer Science @ SFU",
+        "about": [
+            "Hey there! 👋",
+            "I'm passionate about building creative, impactful solutions that lie at the intersection of technology, finance, and entrepreneurship. I enjoy working on projects that require both problem-solving and strategic collaboration, and I’m currently exploring opportunities in product development, design, and project management in emerging tech.",
+            "Outside of work, I’m fascinated by how new ideas are developed, especially in fields such as investment, business strategy, and entrepreneurship. I love traveling, exploring new cultures, and understanding how different parts of the world operate. I'm driven by curiosity and always looking to expand my knowledge and perspectives."
+        ],
+        "socials": {
+            "email": "oliverrnyl@gmail.com",
+            "linkedin": "https://www.linkedin.com/in/olivernyl/",
+            "github": "https://github.com/Olinyl/portfolio"
+        }
+    },
+    "experiences": [
+        {
+            "title": "Full-Stack Developer Co-op",
+            "company": "BC Liquor Distribution Branch (BCLDB)",
+            "href": "",
+            "startDate": "05/2024",
+            "endDate": "08/2024",
+            "description": [
+                "Upgraded enterprise Java services to Jakarta EE 10 with JDK 17, improving maintainability and compliance",
+                "Automated javax to jakarta package migration using Eclipse Transformer and OpenRewrite, accelerating upgrade process.",
+                "Collaborated with architects and DBAs to update WSDL JARs and Maven dependencies for system compatibility.",
+                "Maintained Spring Boot configurations and managed PostgreSQL databases to support modernization."
+            ],
+            "logo": "/logos/bcldb.jpeg",
+            "skills": [
+                "Java", "Jakarta EE", "WildFly", "Maven", "Spring Boot", "PostgreSQL", "SVN"
+            ]
+        },
+        {
+            "title": "Software Developer Co-op",
+            "company": "Government of Canada – Cyber Security",
+            "href": "",
+            "startDate": "01/2024",
+            "endDate": "04/2024",
+            "description": [
+                "Developed high-performance C++ data ingestion systems enhancing secure stream processing capabilities.",
+                "Refactored Base64 encoding routines to improve processing speed by ~25%.",
+                "Built hex string to byte conversion utility, improving data parsing reliability across systems.",
+                "Implemented priority throttle bypass integrated to optimized data flow.",
+                "Supported analyst workflows by creating Python Kafka consumer tools and Jupyter Notebook dashboards."
+            ],
+            "logo": "/logos/canada.png",
+            "skills": [
+                "C++", "Python", "Bash", "Kafka", "Google Test", "Git", "Linux"
+            ]
+        }
+    ],
+    "education": [
+        {
+            "university": "Simon Fraser University",
+            "degree": "Bachelor of Science",
+            "subject": "Computing Science",
+            "startDate": "09/2021",
+            "endDate": "NOW"
+        },
+        {
+            "university": "Beedie School of Business, SFU",
+            "degree": "Certificate",
+            "subject": "Innovation and Entrepreneurship",
+            "startDate": "09/2024",
+            "endDate": "NOW"
+        },
+        {
+            "university": "National University of Singapore",
+            "degree": "Exchange Term",
+            "subject": "Computer Science",
+            "startDate": "08/2024",
+            "endDate": "12/2024"
+        }
+    ],
+    "projects": [
+        {
+            "name": "Library Database Management System",
+            "framework": "SQLite, Python",
+            "description": "A full-stack library management system featuring user management, transaction processing, and analytics for tracking book circulation.",
+            "href": "https://github.com/Library-WebApp/Library-WebApp",
+            "stars": "",
+            "skills": [
+                "SQLite", "Flask", "Python", "HTML", "CSS", "JavaScript", "GitHub"
+            ]
+        },
+        {
+            "name": "SAM Segmentation Machine",
+            "framework": "PyTorch, Flask, React",
+            "description": "Web app for zero-shot lung CT segmentation integrating PyTorch SAM model with a Flask API backend and React frontend.",
+            "href": "https://github.com/sfu-cmpt340/project_09",
+            "stars": "",
+            "skills": [
+                "PyTorch", "React", "Flask", "OpenCV", "PIL", "Docker", "GitHub"
+            ]
+        },
+        {
+            "name": "Exam Scheduler Web Application",
+            "framework": "Java, Spring Boot",
+            "description": "Collaborative exam scheduling app with role-based access, availability management, and automated email notifications.",
+            "href": "https://github.com/yangliudev/FIC-Exam-Scheduler",
+            "stars": "",
+            "skills": [
+                "Java", "Spring Boot", "PostgreSQL", "React", "JWT", "Docker", "GitHub"
+            ]
+        }
+    ]
+}
