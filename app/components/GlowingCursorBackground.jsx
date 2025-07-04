@@ -29,6 +29,7 @@ const GlowingCursorBackground = () => {
         borderRadius: "50%",
         background: "radial-gradient(circle, rgba(168,85,247,0.18) 0%, rgba(139,92,246,0.10) 60%, rgba(0,0,0,0) 100%)",
         filter: "blur(100px)",
+        transition: "left 30ms linear, top 30ms linear"
       }}
       aria-hidden="true"
     />
