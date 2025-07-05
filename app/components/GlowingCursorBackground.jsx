@@ -23,8 +23,8 @@ const GlowingCursorBackground = () => {
     };
 
     const animate = () => {
-      pos.current.x += (mouse.current.x - pos.current.x) * 0.1;
-      pos.current.y += (mouse.current.y - pos.current.y) * 0.1;
+      pos.current.x += (mouse.current.x - pos.current.x) * 0.15;
+      pos.current.y += (mouse.current.y - pos.current.y) * 0.15;
       if (glowRef.current) {
         glowRef.current.style.transform = `translate(${pos.current.x - 250}px, ${pos.current.y - 250}px)`;
       }
@@ -54,7 +54,7 @@ const GlowingCursorBackground = () => {
         borderRadius: "50%",
         background: "radial-gradient(circle, rgba(168,85,247,0.18) 0%, rgba(139,92,246,0.10) 60%, rgba(0,0,0,0) 100%)",
         filter: "blur(100px)",
-        transition: "transform 0.1s linear",
+        transition: "transform 0.05s linear",
       }}
       aria-hidden="true"
     />
