@@ -26,8 +26,7 @@ const GlowingCursorBackground = () => {
       pos.current.x += (mouse.current.x - pos.current.x) * 0.1;
       pos.current.y += (mouse.current.y - pos.current.y) * 0.1;
       if (glowRef.current) {
-        glowRef.current.style.left = `${pos.current.x - 250}px`;
-        glowRef.current.style.top = `${pos.current.y - 250}px`;
+        glowRef.current.style.transform = `translate(${pos.current.x - 250}px, ${pos.current.y - 250}px)`;
       }
       animationFrame.current = requestAnimationFrame(animate);
     };
@@ -46,15 +45,16 @@ const GlowingCursorBackground = () => {
       ref={glowRef}
       style={{
         position: "fixed",
-        left: "50vw",
-        top: "50vh",
+        left: 0,
+        top: 0,
         width: 500,
         height: 500,
         pointerEvents: "none",
-        zIndex: 0,
+        zIndex: -50, // Much lower z-index
         borderRadius: "50%",
         background: "radial-gradient(circle, rgba(168,85,247,0.18) 0%, rgba(139,92,246,0.10) 60%, rgba(0,0,0,0) 100%)",
-        filter: "blur(100px)"
+        filter: "blur(100px)",
+        transition: "transform 0.1s linear",
       }}
       aria-hidden="true"
     />
