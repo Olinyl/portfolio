@@ -6,8 +6,8 @@ import GlowingCursorBackground from './components/GlowingCursorBackground';
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
-  title: 'Website Title',
-  description: 'Website Description',
+  title: 'Oliver Ng',
+  description: "Oliver Ng's personal website and portfolio",
 }
 
 export default function RootLayout({ children }) {
