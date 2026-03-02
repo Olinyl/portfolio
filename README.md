@@ -1,43 +1,33 @@
-<h1 align="center">
-  <br>
-  <img src="https://i.ibb.co/3FdZL3J/Screenshot-2023-10-24-at-15-33-28.png" alt="Oliver Ng's Portfolio" width="200">
-  <br>
-  Oliver Ng's Portfolio
-  <br>
-</h1>
+# Oliver Ng — Portfolio
 
-<h4 align="center">A personal portfolio website built with <a href="https://nextjs.org" target="_blank">Next.js</a> and <a href="https://tailwindcss.com" target="_blank">Tailwind CSS</a>.</h4>
+This repository contains my personal portfolio website.
 
-<p align="center">
-  <a href="#about">About</a> •
-  <a href="#tech-stack">Tech Stack</a> •
-  <a href="#features">Features</a> •
-  <a href="#license">License</a>
-</p>
+## About Me
 
-<div align="center">
-  <img alt="Mockup of website" src="https://i.ibb.co/HqmLMCf/Mockups-Two-Column-Portfolio.png">
-</div>
+I am a Computer Science student at Simon Fraser University with a focus on building production-ready software systems. I enjoy solving backend and full-stack problems involving microservices, distributed systems, data pipelines, and performance optimization.
 
-## About
+I’ve completed software internships in both public sector cybersecurity and enterprise modernization, where I worked with Java, C++, Python, Spring Boot, Jakarta EE, Kafka, and cloud/dev tooling.
 
-Welcome to my portfolio! This website showcases my professional experience, education, projects, and skills in a clean, modern design. It's built on a two-column layout that effectively presents my work and background.
+## What This Portfolio Highlights
 
-## Tech Stack
+- Professional experience and measurable engineering impact
+- Technical projects across backend, full-stack, and ML applications
+- Education and coursework relevant to software engineering fundamentals
+- A concise overview of technologies I use regularly
 
-* **Frontend Framework:** Next.js 15
-* **Styling:** Tailwind CSS
-* **Theme Management:** next-themes
-* **Deployment:** Vercel
+## Built With
 
-## Features
+- Next.js
+- React
+- Tailwind CSS
+- next-themes
 
-* Clean and modern two-column design
-* Fully responsive - optimized for desktop and mobile
-* Dark mode support
-* Dynamic content from JSON configuration
-* Fast performance with Next.js optimization
+## Contact
+
+- Email: oliverrnyl@gmail.com
+- LinkedIn: https://www.linkedin.com/in/olivernyl/
+- GitHub: https://github.com/Olinyl
 
 ## License
 
-MIT License
+MIT

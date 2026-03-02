@@ -3,7 +3,7 @@ import Image from "next/image";
 
 function ExperienceItem(props) {
     return (
-        <div className="group flex flex-row mb-4 p-5 transition-all hover:bg-surface-200">
+        <div className="group flex flex-row mb-4 p-5 rounded-2xl border border-transparent transition-all duration-300 bg-background hover:bg-primary-500/10 hover:border-primary-500/20 hover:shadow-lg hover:shadow-primary-500/10">
             <div className="basis-1/4 mr-2">
                 <Image src={props.logo} alt="Company Logo" width={70} height={70} className='object-contain object-top pt-2' />
             </div>
@@ -20,11 +20,6 @@ function ExperienceItem(props) {
                     ) : (
                         <p>{props.description}</p>
                     )}
-                </div>
-                <div className="flex flex-row flex-wrap gap-2 mt-4">
-                    {props.skills ? props.skills.map((skill) => (
-                        <div key={skill} className="bg-surface-400 py-1 px-3 rounded-full text-xs mr-2 whitespace-nowrap">{skill}</div>
-                    )) : ""}
                 </div>
             </div>
         </div>

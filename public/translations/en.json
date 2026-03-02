@@ -1,11 +1,11 @@
 {
     "general": {
         "name": "Oliver Ng",
-        "headline": "Computer Science @ SFU",
+        "headline": "Full-Stack Software Engineer | Computer Science @ SFU",
         "about": [
-            "Hey there! 👋",
-            "I'm passionate about building creative, impactful solutions that lie at the intersection of technology, finance, and entrepreneurship. I enjoy working on projects that require both problem-solving and strategic collaboration, and I’m currently exploring opportunities in product development, design, and project management in emerging tech.",
-            "Outside of work, I’m fascinated by how new ideas are developed, especially in fields such as investment, business strategy, and entrepreneurship. I love traveling, exploring new cultures, and understanding how different parts of the world operate. I'm driven by curiosity and always looking to expand my knowledge and perspectives."
+            "Hey, I’m Oliver 👋",
+            "I build reliable backend and full-stack systems with a focus on performance, scalability, and maintainability. My recent work includes modernizing enterprise Java services, improving API and data pipeline reliability, and shipping production-ready features across cross-functional teams.",
+            "I’m currently studying Computing Science at Simon Fraser University and have internship experience in cybersecurity and enterprise modernization. I’m especially interested in distributed systems, microservices architecture, and turning complex requirements into clean engineering solutions."
         ],
         "socials": {
             "email": "oliverrnyl@gmail.com",
@@ -18,13 +18,13 @@
             "title": "Full-Stack Developer Co-op",
             "company": "BC Liquor Distribution Branch (BCLDB)",
             "href": "",
-            "startDate": "05/2024",
-            "endDate": "08/2024",
+            "startDate": "05/2025",
+            "endDate": "12/2025",
             "description": [
-                "Upgraded enterprise Java services to Jakarta EE 10 with JDK 17, improving maintainability and compliance",
-                "Automated javax to jakarta package migration using Eclipse Transformer and OpenRewrite, accelerating upgrade process.",
-                "Collaborated with architects and DBAs to update WSDL JARs and Maven dependencies for system compatibility.",
-                "Maintained Spring Boot configurations and managed PostgreSQL databases to support modernization."
+                "Migrated enterprise microservices from Java EE 8 to Jakarta EE 10 and supported adoption of Java 17 across production systems.",
+                "Automated the javax-to-jakarta refactor with OpenRewrite and Eclipse Transformer across 500+ legacy files.",
+                "Worked with QA, DBA, and systems teams to update WSDL schemas and Maven dependencies while resolving compatibility issues.",
+                "Validated service upgrades through integration testing and tooling to catch defects before release."
             ],
             "logo": "/logos/bcldb.jpeg",
             "skills": [
@@ -38,11 +38,10 @@
             "startDate": "01/2024",
             "endDate": "04/2024",
             "description": [
-                "Developed high-performance C++ data ingestion systems enhancing secure stream processing capabilities.",
-                "Refactored Base64 encoding routines to improve processing speed by ~25%.",
-                "Built hex string to byte conversion utility, improving data parsing reliability across systems.",
-                "Implemented priority throttle bypass integrated to optimized data flow.",
-                "Supported analyst workflows by creating Python Kafka consumer tools and Jupyter Notebook dashboards."
+                "Developed low-latency C++ packet-processing services for secure monitoring pipelines.",
+                "Built REST API and throttling logic to improve reliability under sustained high-throughput workloads.",
+                "Implemented Kafka-based event streaming and Python tooling for near real-time analyst visibility.",
+                "Improved deployment and diagnostics workflows on Linux through automation and scripting."
             ],
             "logo": "/logos/canada.png",
             "skills": [
@@ -53,8 +52,8 @@
     "education": [
         {
             "university": "Simon Fraser University",
-            "degree": "Bachelor of Science",
-            "subject": "Computing Science",
+            "degree": "B.A.Sc. in Computer Science",
+            "subject": "Certificate in Innovation & Entrepreneurship",
             "startDate": "09/2021",
             "endDate": "NOW"
         },
@@ -77,7 +76,7 @@
         {
             "name": "Library Database Management System",
             "framework": "SQLite, Python",
-            "description": "A full-stack library management system featuring user management, transaction processing, and analytics for tracking book circulation.",
+            "description": "BCNF-compliant library platform with normalized schema design, trigger-driven business logic, and secure Flask API workflows.",
             "href": "https://github.com/Library-WebApp/Library-WebApp",
             "stars": "",
             "skills": [
@@ -87,7 +86,7 @@
         {
             "name": "SAM Segmentation Machine",
             "framework": "PyTorch, Flask, React",
-            "description": "Web app for zero-shot lung CT segmentation integrating PyTorch SAM model with a Flask API backend and React frontend.",
+            "description": "Full-stack medical imaging app for lung CT segmentation with asynchronous inference, DICOM preprocessing, and PyTorch integration.",
             "href": "https://github.com/sfu-cmpt340/project_09",
             "stars": "",
             "skills": [
