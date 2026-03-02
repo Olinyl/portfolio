@@ -1,27 +1,35 @@
 'use client'
 
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useCallback } from "react";
 import NavItem from "./nav-item";
 
 const Navigation = () => {
     const [activeSection, setActiveSection] = useState(null);
 
     useEffect(() => {
-        const handleScroll = () => {
-            const sections = Array.from(document.querySelectorAll('[data-section]'));
-            const scrollPosition = window.scrollY + window.innerHeight / 4; // Adjust offset as needed
+        let ticking = false;
 
-            let currentSection = sections[0];
-            for (let section of sections) {
-                if (section.offsetTop <= scrollPosition) {
-                    currentSection = section;
-                }
+        const handleScroll = () => {
+            if (!ticking) {
+                window.requestAnimationFrame(() => {
+                    const sections = Array.from(document.querySelectorAll('[data-section]'));
+                    const scrollPosition = window.scrollY + window.innerHeight / 4;
+
+                    let currentSection = sections[0];
+                    for (let section of sections) {
+                        if (section.offsetTop <= scrollPosition) {
+                            currentSection = section;
+                        }
+                    }
+                    setActiveSection(currentSection.id);
+                    ticking = false;
+                });
+                ticking = true;
             }
-            setActiveSection(currentSection.id);
         };
 
         window.addEventListener('scroll', handleScroll, { passive: true });
-        handleScroll(); // Set initial section
+        handleScroll();
 
         return () => {
             window.removeEventListener('scroll', handleScroll);

@@ -1,17 +1,17 @@
 <h1 align="center">
   <br>
-  <img src="https://i.ibb.co/3FdZL3J/Screenshot-2023-10-24-at-15-33-28.png" alt="Two Column Portfolio" width="200">
+  <img src="https://i.ibb.co/3FdZL3J/Screenshot-2023-10-24-at-15-33-28.png" alt="Oliver Ng's Portfolio" width="200">
   <br>
-  Oliver Ng's Two-Column Portfolio
+  Oliver Ng's Portfolio
   <br>
 </h1>
 
-<h4 align="center">A simple two-column portfolio template built with <a href="https://nextjs.org" target="_blank">Next.js</a> and <a href="https://tailwindcss.com" target="_blank">Tailwind CSS</a>.</h4>
+<h4 align="center">A personal portfolio website built with <a href="https://nextjs.org" target="_blank">Next.js</a> and <a href="https://tailwindcss.com" target="_blank">Tailwind CSS</a>.</h4>
 
 <p align="center">
-  <a href="#key-features">Key Features</a> •
-  <a href="#how-to-use">How To Use</a> •
-  <a href="#customization">Customization</a> •
+  <a href="#about">About</a> •
+  <a href="#tech-stack">Tech Stack</a> •
+  <a href="#features">Features</a> •
   <a href="#license">License</a>
 </p>
 
@@ -19,57 +19,24 @@
   <img alt="Mockup of website" src="https://i.ibb.co/HqmLMCf/Mockups-Two-Column-Portfolio.png">
 </div>
 
-## Key Features
+## About
 
-* Simple and easy to edit - your version is up and running in minutes.
-  - All information of the page is loaded from a JSON file, which can be modified without coding knowledge.
-* Colors are easily customizable to your taste.
-  - There are a few presets, but even adding your own color palette is very easy.
-* Mobile ready.
-  - Optimized for desktop, but looks good on mobile as well.
-* Deployed very easily using Vercel.
-  - Create a private fork of this repository on your GitHub account, change the details and deploy the page using Vercel's GitHub integration.
+Welcome to my portfolio! This website showcases my professional experience, education, projects, and skills in a clean, modern design. It's built on a two-column layout that effectively presents my work and background.
 
-## How To Use
+## Tech Stack
 
-To clone and run this website, you'll need to paste the following steps in your command line:
+* **Frontend Framework:** Next.js 15
+* **Styling:** Tailwind CSS
+* **Theme Management:** next-themes
+* **Deployment:** Vercel
 
-```bash
-# Clone this repository
-$ git clone <your-repo-url>
+## Features
 
-# Go into the repository
-$ cd two-column-portfolio
-
-# Install dependencies
-$ npm install
-
-# Run the app
-$ npm run dev
-
-# Build the app
-$ npm run build
-```
-
-> **Note**
-> After running the app the live version of it is available at `localhost:3000`.
-
-## Customization
-
-In order to customize the template to your own needs, please do the following.
-
-1. Edit the title and description of the website in the file `app/layout.js`.
-2. Add your personal details by editing the file `translations/en.json`
-   - You can specify an arbitrary number of positions in experiences (+ their skills), education, and projects.
-   - In the About section, multiple paragraphs can be created by creating multiple entries in the array `General:about`.
-3. Replace the file `app/favicon.ico` with a favicon of your choice.
-4. (Optional) Change the color palette by editing the file `tailwind.config.js`.
-5. (Optional) Edit the imprint and privacy statement if it is necessary in your country.
-6. Enjoy!
-
-## Credits
-
-This portfolio was created and is maintained by Oliver Ng.
+* Clean and modern two-column design
+* Fully responsive - optimized for desktop and mobile
+* Dark mode support
+* Dynamic content from JSON configuration
+* Fast performance with Next.js optimization
 
 ## License
 

@@ -54,7 +54,12 @@ const Gallery = () => {
       <h2 className='mb-8 visible font-medium tracking-widest'>Photo Gallery</h2>
       <div className='grid grid-cols-2 md:grid-cols-3 gap-2'>
         {images.map((src, idx) => (
-          <GalleryItem key={idx} src={src} alt={`Gallery image ${idx + 1}`} />
+          <GalleryItem 
+            key={idx} 
+            src={src} 
+            alt={`Gallery image ${idx + 1}`}
+            priority={idx < 6}
+          />
         ))}
       </div>
     </div>
